@@ -1,0 +1,31 @@
+body {
+    margin: 0px
+}
+
+.black-footer {
+    background-color: #000;
+    color: #fff; /* Witte tekst voor betere leesbaarheid op zwarte achtergrond */
+    padding: 40px;
+    text-align: center; /* Optioneel: om inhoud in het midden te centreren */
+  }
+
+  .horizontal-nav ul {
+    list-style: none; /* Verwijder de opsommingstekens */
+    padding: 0;
+    display: flex; /* Laat de lijst horizontaal weergeven */
+    justify-content: center;
+  }
+  
+  .horizontal-nav li {
+    margin-right: 15px;
+  }
+  
+  .horizontal-nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: '';
+  }
+  
+  .horizontal-nav a:hover {
+    color: #555;
+  }
